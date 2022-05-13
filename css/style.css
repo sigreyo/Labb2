@@ -79,6 +79,17 @@ body {
   background: rgb(213, 213, 213);
 }
 
+.btn {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+  border: none;
+  background-color: #052a3c;
+}
+.btn:hover {
+  background-color: #06d85f;
+}
+
 .sidebar .footer {
   margin-bottom: 30px;
   position: fixed;

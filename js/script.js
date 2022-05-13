@@ -15,7 +15,7 @@ fetch("./edu.json")
   })
 
 function appendDataWork(data) {
-  var ele = document.getElementById("work")
+  var ele = document.querySelector(".work")
   for (var i = 0; i < data.length; i++) {
     var h4 = document.createElement("h4")
     var h5 = document.createElement("h5")
@@ -29,7 +29,7 @@ function appendDataWork(data) {
   }
 }
 function appendDataEdu(data) {
-  var ele = document.getElementById("edu")
+  var ele = document.querySelector(".edu")
   for (var i = 0; i < data.length; i++) {
     var h4 = document.createElement("h4")
     var h5 = document.createElement("h5")
@@ -41,6 +41,15 @@ function appendDataEdu(data) {
     ele.appendChild(h5)
     ele.appendChild(p)
   }
+}
+
+function flipCol() {
+  const head = document.querySelector(".sidebar")
+  head.style.filter = "invert(100%)"
+}
+function flipBack() {
+  const head = document.querySelector(".sidebar")
+  head.style.filter = "invert(0%)"
 }
 
 //   .then((json) => console.log(json))

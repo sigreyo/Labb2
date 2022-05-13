@@ -1,100 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Simon Grenefalk CV</title>
-    <link href="css/style.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="sidebar">
-      <div class="profile">
-        <img src="img/me.jpg" alt="Portrait" />
-        <h3>Simon Grenefalk</h3>
-        <p>Systemutvecklare (snart)</p>
-      </div>
-      <div class="menu">
-        <a href="index.html">
-          <span class="icon"><i class="fas fa-home"></i></span>
-          <span class="menutext">Start</span>
-        </a>
-        <a class="active" href="about.html">
-          <span class="icon"><i class="fas fa-info-circle"></i></span>
-          <span class="menutext">Om mig</span>
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <title>Simon Grenefalk CV</title>
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet" />
+</head>
 
-        <a href="cv.html">
-          <span class="icon"><i class="fas fa-paperclip"></i></span>
-          <span class="menutext">CV</span>
-        </a>
-        <a href="portfolio.html">
-          <span class="icon"><i class="fas fa-folder-open"></i></span>
-          <span class="menutext">Portfolio</span>
-        </a>
-        <a href="lorem.html">
-          <span class="icon"><i class="fas fa-at"></i></span>
-          <span class="menutext">Lorem</span>
-        </a>
-      </div>
-      <footer class="footer">
-        <ul class="contact">
-          <li>
-            <a href="https://instagram.com" target="_blank">
-              <span class="icon"><i class="fab fa-instagram"></i></span>
-            </a>
-          </li>
-          <li>
-            <a href="https://facebook.com" target="_blank">
-              <span class="icon"><i class="fab fa-facebook-f"></i></span>
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com" target="_blank">
-              <span class="icon"><i class="fab fa-linkedin-in"></i></span>
-            </a>
-          </li>
-        </ul>
-      </footer>
+<body>
+  <div class="sidebar">
+    <div class="profile">
+      <img src="img/me.jpg" alt="Portrait" />
+      <h3><span onclick="flipCol()">Simon </span>
+        <span onclick="flipBack()">Grenefalk</span>
+      </h3>
+      <p>Systemutvecklare (snart)</p>
     </div>
-    <div class="container">
-      <div class="top">
-        <h2>Om mig</h2>
-      </div>
-      <div class="content">
-        <div class="about">
-          <p>
-            Simon Grenefalk, 32 år. Ursprungligen från Stockholm, men bor nu i
-            Varberg tillsammans med min fästmö i vårt nybyggda hus.
-          </p>
-          <p>
-            Som person uppfattas jag många gånger som en trygg och stabil
-            person. Jag har jag lätt att lära mig nya saker, och trivs med att
-            utvecklas och utmanas. Jag tar gärna ansvar, och trivs med att leda
-            och fördela arbete. Jag är van att arbeta under stress och att ha
-            flera saker på gång samtidigt.
-          </p>
-          <p>
-            På fritiden tränar jag gärna, och ser det som en naturlig del av
-            mitt liv. Jag har provat många lagsporter, gjort en svensk
-            klassiker, men ägnar mig numera mest åt träning på egen hand. Under
-            längre ledigheter brukar jag och min fästmö försöka få till resor
-            till nya ställen i världen. Gärna till något ställe där man kan
-            vandra och vara fysiskt aktiv. Annars beger vi oss till vår stuga i
-            Fjäråstrakten och pysslar om den, eller bara kopplar av.
-          </p>
-        </div>
-      </div>
-      <div class="bottom"></div>
+    <div class="menu">
+      <a href="index.html">
+        <span class="icon"><i class="fas fa-home"></i></span>
+        <span class="menutext">Start</span>
+      </a>
+      <a class="active" href="about.html">
+        <span class="icon"><i class="fas fa-info-circle"></i></span>
+        <span class="menutext">Om mig</span>
+      </a>
+
+      <a href="cv.html">
+        <span class="icon"><i class="fas fa-paperclip"></i></span>
+        <span class="menutext">CV</span>
+      </a>
+      <a href="portfolio.html">
+        <span class="icon"><i class="fas fa-folder-open"></i></span>
+        <span class="menutext">Portfolio</span>
+      </a>
+      <a href="lorem.html">
+        <span class="icon"><i class="fas fa-at"></i></span>
+        <span class="menutext">Lorem</span>
+      </a>
     </div>
-  </body>
+    <footer class="footer">
+      <ul class="contact">
+        <li>
+          <a href="https://instagram.com" target="_blank">
+            <span class="icon"><i class="fab fa-instagram"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://facebook.com" target="_blank">
+            <span class="icon"><i class="fab fa-facebook-f"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com" target="_blank">
+            <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <div class="container">
+    <div class="top">
+      <h2>Om mig</h2>
+    </div>
+    <div class="content">
+      <div class="about">
+        <p>
+          Simon Grenefalk, 32 år. Ursprungligen från Stockholm, men bor nu i
+          Varberg tillsammans med min fästmö i vårt nybyggda hus.
+        </p>
+        <p>
+          Som person uppfattas jag många gånger som en trygg och stabil
+          person. Jag har jag lätt att lära mig nya saker, och trivs med att
+          utvecklas och utmanas. Jag tar gärna ansvar, och trivs med att leda
+          och fördela arbete. Jag är van att arbeta under stress och att ha
+          flera saker på gång samtidigt.
+        </p>
+        <p>
+          På fritiden tränar jag gärna, och ser det som en naturlig del av
+          mitt liv. Jag har provat många lagsporter, gjort en svensk
+          klassiker, men ägnar mig numera mest åt träning på egen hand. Under
+          längre ledigheter brukar jag och min fästmö försöka få till resor
+          till nya ställen i världen. Gärna till något ställe där man kan
+          vandra och vara fysiskt aktiv. Annars beger vi oss till vår stuga i
+          Fjäråstrakten och pysslar om den, eller bara kopplar av.
+        </p>
+      </div>
+    </div>
+    <div class="bottom"></div>
+  </div>
+</body>
+
 </html>
