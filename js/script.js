@@ -49,7 +49,40 @@ function flipCol() {
 }
 function flipBack() {
   const head = document.querySelector(".sidebar")
-  head.style.filter = "invert(0%)"
+  head.style.removeProperty("filter")
 }
 
-//   .then((json) => console.log(json))
+document.addEventListener("keydown", (event) => {
+  var ele = document.getElementById("easter")
+  const over = document.getElementById("overlay")
+  var arr = ["r", "i", "c", "k"]
+
+  if (arr.includes(event.key)) {
+    if (event.key == "r" && ele.innerText == "") {
+      ele.innerText += event.key
+    }
+    if (event.key == "i" && ele.innerText == "R") {
+      ele.innerText += event.key
+    }
+    if (event.key == "c" && ele.innerText == "RI") {
+      ele.innerText += event.key
+    }
+    if (event.key == "k" && ele.innerText == "RIC") {
+      ele.innerText += event.key
+      over.style.transition = "opacity 3s"
+      over.style.opacity = 1
+      setTimeout(() => {
+        window.open(
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+          "_blank"
+        )
+      }, 3000)
+    }
+  } else {
+    reset()
+  }
+
+  function reset() {
+    ele.innerText = ""
+  }
+})
