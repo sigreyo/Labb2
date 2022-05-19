@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "school": "Campus Varberg",
+    "course": "Systemutvecklare .NET",
+    "startdate": "Semptember 2021",
+    "enddate": "Pågående (slut Juni 2023)",
+    "description": "Agil systemutveckling i team <br>Avancerad .NET <br>Avancerad systemutveckling med ASP.NET <br>Databasutveckling och databasadministration <br>Examensarbete <br>LIA 1 Grundläggande systemutveckling <br>LIA 2 Avancerad systemutveckling <br>Objektorienterad programmering <br>Systemtestning för frontendutvecklare <br>Utveckling med C# <br>Webbutveckling<br>"
+  },
+  {
+    "id": 2,
+    "school": "Sjöstridsskolan SSS",
+    "course": "Specialistofficersutbildning, inriktning Röjdyk",
+    "startdate": "Augusti 2017",
+    "enddate": "December 2018",
+    "description": "Ledarskapsutbildning och UGL <br>Arbetsmiljöutbildning inriktning ledarskap i marinen <br>Utbildning i träning och hälsa <br>Ammunitionsröjningsledare <br>"
+  }
+]
