@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab41caea.css",
-    "main.js": "/static/js/main.1961c9cd.js",
-    "static/js/787.6e60c89b.chunk.js": "/static/js/787.6e60c89b.chunk.js",
-    "static/media/img1.jpg": "/static/media/img1.034b288d9f0729def865.jpg",
-    "static/media/timereport.png": "/static/media/timereport.ce48a47d419b25128cf5.png",
-    "static/media/animals.jpg": "/static/media/animals.51484f514576550d802d.jpg",
-    "static/media/chess.jpg": "/static/media/chess.1a3a332a4308470a62f8.jpg",
-    "static/media/me.jpg": "/static/media/me.79c8ceb7ea22885d9f16.jpg",
-    "static/media/atm.jpg": "/static/media/atm.82a5bd956666ff179c51.jpg",
-    "static/media/bank.jpg": "/static/media/bank.11eae55e7796e435d127.jpg",
-    "static/media/gen.webp": "/static/media/gen.d8873869f938ca0bb2eb.webp",
-    "static/media/numbers.jpg": "/static/media/numbers.a0dbb114d37525d3c3bd.jpg",
-    "index.html": "/index.html",
-    "main.ab41caea.css.map": "/static/css/main.ab41caea.css.map",
-    "main.1961c9cd.js.map": "/static/js/main.1961c9cd.js.map",
-    "787.6e60c89b.chunk.js.map": "/static/js/787.6e60c89b.chunk.js.map"
+    "main.css": "/labb2/static/css/main.ab41caea.css",
+    "main.js": "/labb2/static/js/main.06298b42.js",
+    "static/js/787.6e60c89b.chunk.js": "/labb2/static/js/787.6e60c89b.chunk.js",
+    "static/media/img1.jpg": "/labb2/static/media/img1.034b288d9f0729def865.jpg",
+    "static/media/timereport.png": "/labb2/static/media/timereport.ce48a47d419b25128cf5.png",
+    "static/media/animals.jpg": "/labb2/static/media/animals.51484f514576550d802d.jpg",
+    "static/media/chess.jpg": "/labb2/static/media/chess.1a3a332a4308470a62f8.jpg",
+    "static/media/me.jpg": "/labb2/static/media/me.79c8ceb7ea22885d9f16.jpg",
+    "static/media/atm.jpg": "/labb2/static/media/atm.82a5bd956666ff179c51.jpg",
+    "static/media/bank.jpg": "/labb2/static/media/bank.11eae55e7796e435d127.jpg",
+    "static/media/gen.webp": "/labb2/static/media/gen.d8873869f938ca0bb2eb.webp",
+    "static/media/numbers.jpg": "/labb2/static/media/numbers.a0dbb114d37525d3c3bd.jpg",
+    "index.html": "/labb2/index.html",
+    "main.ab41caea.css.map": "/labb2/static/css/main.ab41caea.css.map",
+    "main.06298b42.js.map": "/labb2/static/js/main.06298b42.js.map",
+    "787.6e60c89b.chunk.js.map": "/labb2/static/js/787.6e60c89b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab41caea.css",
-    "static/js/main.1961c9cd.js"
+    "static/js/main.06298b42.js"
   ]
 }
