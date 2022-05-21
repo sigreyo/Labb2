@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "employer": "Södra",
+    "workplace": "Värö",
+    "title": "Operatör KL-trä",
+    "startdate": "Oktober 2020",
+    "enddate": "Juni 2021",
+    "description": "Som operatör i produktionen av KL-trä ingick jag i ett skiftlag där vi producerar, efterbehandlar och paketerar paneler av korslimmat trä."
+  },
+  {
+    "id": 2,
+    "employer": "Försvarsmakten",
+    "workplace": "3.sjöstridsflottiljen",
+    "title": "Dykofficer",
+    "startdate": "Januari 2019",
+    "enddate": "Oktober 2020",
+    "description": "Som dykofficer var jag ansvarig för, och planerade dykverksamheten ombord på ett röjdykarfartyg. Det innebär att ha ett stort ansvar för andra människors liv, sett till säkerheten gällande skarp dykning och det arbete som görs under själva dykningen, till exempel röja minor. Jag blir ofta en ”spindel i nätet”, och får lösa uppkomna problem tillsammans med andra och med hjälp av mina dykare, vilket jag trivs väldigt bra med."
+  },
+  {
+    "id": 3,
+    "employer": "Försvarsmakten",
+    "workplace": "4.sjöstridsflottiljen",
+    "title": "Röjdykare",
+    "startdate": "Januari 2015",
+    "enddate": "Augusti 2017",
+    "description": "Röjdykare ombord på fartyg. Allt från att sitta vid rodret och stå utkik, till att söka efter ammunition eller dokumentera vrak. Jag hade även tillikauppgifter som rökdykare och räddningsman."
+  },
+  {
+    "id": 4,
+    "employer": "Försvarsmakten",
+    "workplace": "Livgardet",
+    "title": "Skyttesoldat/Signalist",
+    "startdate": "Januari 2013",
+    "enddate": "December 2014",
+    "description": "Soldat på skyttegrupp. Blandat ceremoniell tjänst och strid."
+  },
+  {
+    "id": 5,
+    "employer": "Försvarsmakten",
+    "workplace": "Undervattensspaningscentralen",
+    "title": "Operatör",
+    "startdate": "Januari 2013",
+    "enddate": "Januari 2011",
+    "description": "December 2012"
+  },
+  {
+    "id": 6,
+    "employer": "Sodexo",
+    "workplace": "Västberga",
+    "title": "Vaktmästare",
+    "startdate": "2009",
+    "enddate": "2011",
+    "description": "Allt-i-allo, bl a installera datorer och posthantering."
+  }
+]
